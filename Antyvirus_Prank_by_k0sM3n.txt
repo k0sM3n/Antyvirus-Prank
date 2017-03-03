@@ -1,0 +1,158 @@
+@echo off
+color 47
+net stop themes >nul
+title Witaj w programie Virus Remover!
+echo Usuñ virusy z twojego komputera!!!
+echo -
+echo ZBIERAM INFORMACJE O SYSTEMIE
+echo -
+echo FIREWALL - WY£ACZONY
+echo -
+echo ANTI-VIRUS - NIEZAINSTALOWANY
+echo -
+echo TWOJ ADRESS IP: 127.0.0.1
+echo -
+echo WYKRYTO PROCES WIRUSA MM748
+echo -
+pause
+cls
+echo -
+echo SKANOWANIE...
+echo -
+pause
+set /a num=0
+:repeat1
+set /a num=%num% +1
+echo %num%
+if %num%==100 goto end
+goto repeat1
+:end
+cls
+echo -
+echo WYKRYTO 4 ZAGROZEN
+echo -
+echo USUWANIE DXF.MALWARE
+echo -
+echo USUWANIE LOCKY
+echo -
+echo USUWANIE CRLF.EXE
+echo -
+echo USUWANIE gfr3.dll
+echo -
+echo USUWANIE WPISOW W REJESTRZE
+echo -
+pause
+cls
+echo -
+echo ROZPOCZÊTO G£ÊBOKIE SKANOWANIE
+echo -
+dir /s
+pause
+cls
+echo -
+echo 
+echo -
+pause
+cls
+echo -
+echo SKANOWANIE 50 %
+echo -
+set /a num1=0
+:repeat2
+set /a num1=%num1% +1
+echo %num1%
+if %num1%==100 goto end1
+goto repeat2
+:end1
+cls
+echo -
+echo SKANOWANIE 75%
+echo -
+echo -
+echo -
+echo SKANOWANIE 100%
+pause
+echo B£AD
+echo B£AD
+echo B£¥D
+echo B£¥D
+echo B£¥D
+echo B£¥D
+echo B£¥D
+echo B£¥D
+echo WYKRYTO BRAK PAGEFILE.SYS
+echo B£¥D
+echo B£¥D
+echo B£¥D
+echo B£¥D
+echo B£¥D BRAK DOSTÊPU DO C://Users
+echo B£¥D
+echo -
+echo Zmieniam atrybuty C:/Users
+echo B£¥D
+echo TERAZ USUNE PLIKI VIRUSA Z3S
+echo -
+echo USUWANIE C:/USERS/$gb3fv/plugin.dll
+echo -
+echo USUWANIE C:/USERS/$gb3fv/temp
+echo -
+echo USUWANIE  C:/USERS/$gb3fv/z3s.exe
+echo -
+echo USUWANIE  C:/USERS/$gb3fv/img
+echo -
+echo USUWANIE C:/USERS/$gb3fv/img/icon.gif
+echo
+echo USUWANIE C:/USERS/$gb3fv/img/f3hdxfgvy.jpg 
+echo -
+echo USUWANIE  C:/USERS/$gb3fv/konieczny.exe
+echo -
+echo USUWANIE  C:/USERS/$gb3fv/niebezpiecznik.pl
+echo -
+echo USUNIETO PLIKI WIRUSA
+echo -
+pause
+cls
+echo NAPRAWIAM SYSTEM
+color 17
+echo PROBUJE URUCHOMIC RUNDLL32.DLL
+echo -
+echo PROCES RUNDLL32.DLL URUCHAMIANIE...
+echo -
+echo -
+echo -
+echo PROCES RUNDLL32.DLL ZOSTA£ URUCHOMIONY
+echo -
+echo PRZYWRACANIE POZOSTA£YCH US£UG
+echo -
+echo PRZYWRACANIE explorer.exe
+pause 5
+echo PRZYWRACANIE CALC.EXE
+pause 5
+echo PRZYWRACANIE dwm.exe
+pause
+echo PRZYWRACANIE CSRSS.EXE
+pause 5
+echo PRZYWRACANIE svchost.exe
+Pause 5
+echo PRZYWRACANIE PAGEFILE.SYSTEM
+pause 5
+cls
+echo -
+echo -
+echo -
+echo PRZYWRACANIE C:/Windows
+echo -
+echo -
+echo -
+pause
+cls
+echo -
+echo -
+echo -
+echo TWOJ SYSTEM ZOSTA£ NAPRAWIONY
+pause
+echo -
+echo TERAZ NASTAPI RESTART KOMPUTERA
+echo -
+pause
+start shutdown -s -t 60 -c "DZIÊKUJEMY ZA SKORZYSTANIE Z VIRUS REMOVER"
